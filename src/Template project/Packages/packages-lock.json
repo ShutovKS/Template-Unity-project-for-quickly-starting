@@ -328,7 +328,7 @@
     },
     "com.unity.render-pipelines.core": {
       "version": "17.0.2",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
@@ -340,9 +340,29 @@
         "com.unity.rendering.light-transport": "1.0.0"
       }
     },
+    "com.unity.render-pipelines.universal": {
+      "version": "17.0.2",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.burst": "1.8.9",
+        "com.unity.render-pipelines.core": "17.0.2",
+        "com.unity.shadergraph": "17.0.2",
+        "com.unity.render-pipelines.universal-config": "17.0.1"
+      }
+    },
+    "com.unity.render-pipelines.universal-config": {
+      "version": "17.0.1",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.1"
+      }
+    },
     "com.unity.rendering.light-transport": {
       "version": "1.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.collections": "2.2.0",
